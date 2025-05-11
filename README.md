@@ -20,9 +20,9 @@
 
 ## 📸 Preview
 
-Check out what Preview can do:
+You can also add in detail rows and columns to futher show off what the future project will look like. You can even expand to multiple pages if there is a need.
 
-![Preview Example](./preview.png)
+![Preview Example](./preview2.png)
 
 ## 🛠️ Installation
 
