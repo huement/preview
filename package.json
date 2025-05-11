@@ -8,6 +8,7 @@
   "sourceType": "module",
   "main": "bin/pug.cjs",
   "scripts": {
+    "build": "npm run pug && npm run css",
     "pug": "node bin/pug.cjs --build=true",
     "css": "sass --verbose --no-quiet --load-path=node_modules --style expanded --source-map --embed-sources scss:css"
   },
