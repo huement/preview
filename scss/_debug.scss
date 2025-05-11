@@ -1,0 +1,25 @@
+///
+/// HUI TEST STYLINGS
+/// Everything here is just to make sure the poop is grouped.
+///
+
+// Sass Modules
+@use 'sass:map';
+@use 'sass:list';
+@use 'sass:math';
+@use 'sass:color';
+@use 'sass:meta';
+
+//
+// SUPER CLASSY SETUP
+@import '@huement/ui/scss/framework';
+
+//
+// INITIAL OUTPUT : ROOT VARS : NORMALIZE + RESET
+@include mojoBanner('', $version);
+
+.#{$superclass} {
+  color: map.get($mojo-coral, hex);
+  background-color: $yellow-100;
+  font-size: $base-font-size;
+}

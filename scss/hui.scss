@@ -1,0 +1,88 @@
+///
+/// HUI TEST STYLINGS
+/// Everything here is just to make sure the poop is grouped.
+///
+
+// Sass Modules
+@use 'sass:map';
+@use 'sass:list';
+@use 'sass:math';
+@use 'sass:color';
+@use 'sass:meta';
+
+//
+// SUPER CLASSY SETUP
+@import '@huement/ui/scss/ui';
+
+.hui-test {
+  color: map.get($mojo-coral, hex);
+  background-color: $yellow-100;
+  font-size: $base-font-size;
+}
+
+.negative-top {
+  margin-top: -13rem;
+}
+
+.positive-top {
+  padding-bottom: 10rem;
+}
+
+.subtitle {
+  font-family: 'Jost';
+  font-weight: 400;
+}
+
+.mojoWebsite {
+  .headBlock {
+    .hero {
+      .hero-body {
+        z-index: 1;
+
+        .title {
+          z-index: 1;
+        }
+        .subtitle {
+          z-index: 1;
+        }
+      }
+    }
+
+    .triangleMojo,
+    .triangleTop {
+      position: absolute;
+      top: 15rem;
+      z-index: 0;
+      width: 6em;
+      height: auto;
+      left: 35%;
+    }
+
+    .triangleTop {
+      @include getTriangleDown(6rem, $danger);
+    }
+  }
+
+  .circle-block {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .promo-block {
+    .img-center {
+      height: 200px;
+      width: 200px;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+}
+
+// Breakpoint Loop
+@include media-breakpoint-up(lg, $grid-breakpoints) {
+  .vr-block.site-spacer {
+    height: 150px !important;
+  }
+}

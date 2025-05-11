@@ -1,0 +1,27 @@
+<!-- Mojo Footer -->
+footer.footer.bg-cyan-light.pt-5(role="contentinfo")
+  .container
+    .row
+      .col-12.col-sm-4
+        .circle-block
+          img.img-fluid.footer-logo(src=imgPath+"Grid.svg" alt="Element1" style="width:100%;max-width:150px;")
+          .footer-circle.bg-cyan-light
+            | &nbsp;
+      .col-12.col-sm-4
+        div.social-wrap
+          .btn-group
+            a.btn.btn-primary(href="#")
+              i.bx.bxl-facebook-square
+              | Facebook
+            a.btn.btn-primary(href="#")
+              i.bx.bxl-twitter
+              | X.com (twitter)
+            a.btn.btn-primary(href="#")
+              i.bx.bxl-linkedin
+              | LinkedIn
+
+      .col-12.col-sm-4
+        p.mb-n1
+          | (c) Huement.com 2025
+        p.mt-n2
+          strong v #{package.version}

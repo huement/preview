@@ -1,0 +1,19 @@
+meta(charset="UTF-8")
+title= title
+meta(name="description", content= metaDesc )
+meta(name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no")
+link(rel="icon" type="image/png", href= path + "favicon/favicon-32x32.png" sizes="32x32")
+link(rel="icon" type="image/png", href= path + "favicon/favicon-16x16.png" sizes="16x16")
+link(href= path + "favicon/favicon.ico" rel="shortcut icon" type="image/x-icon")
+
+//- link(rel="preconnect" href="https://fonts.googleapis.com")
+//- link(rel="preconnect" href="https://fonts.gstatic.com", crossorigin)
+//- link(href="https://fonts.googleapis.com/css2?family=Saira:wght@500..700&family=Jost:wght@300;400&display=swap" rel="stylesheet")
+
+// [if lt IE 9]><script language="javascript" type="text/javascript" src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]
+
+link(rel="stylesheet", href= path + "css/hui.css?token=" + stamp, type="text/css" id="hui_css")
+link(href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet")
+
+if pageCSS
+    link(rel="stylesheet", href= path + pageCSS + ".css?stamp=" + stamp, type="text/css" id="page_css")

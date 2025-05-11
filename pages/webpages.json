@@ -1,0 +1,8 @@
+[
+  {
+    "name": "Home",
+    "icon": "html5",
+    "url": "/index.html",
+    "file": "index.pug"
+  }
+]

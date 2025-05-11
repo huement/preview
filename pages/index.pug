@@ -1,0 +1,51 @@
+extends ../page-data/layout-main
+
+append config
+    - var prism = true
+    - var slug = 'index'
+
+block content
+    section.angle-bottom-left.positive-top.headBlock
+        .container
+            .row
+                .col
+                    .hero.hero-large
+                        .hero-body.text-center
+                            h1.mt-n3
+                                | HUEMENT.com
+                            .subtitle.subtitle-sm.text-info.mt-3.mb-2.pb-2
+                                | Under Construction. Progress is at
+                            .progress.mt-5(role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 60px")
+                                .progress-bar.progress-bar-striped.bg-info.progress-bar-animated(style="width: 50%")
+
+        span.triangleTop &nbsp;
+
+    section.bg-white.angle-both-right-right.negative-top.text-dark
+        .vr-block.site-spacer
+        .container
+            .row.mt-5.mb-1
+                .col-12.py-5
+                    p.display-3.text-center.text-dark
+                        | Launching Summer 2025
+        .container
+            .row.pt-5.pb-5.mt-5.mb-5
+                .col.col-md-4
+                    .promo-block
+                        img.img-center(src= imgPath+"preview.png" style="width: 100%; max-width: 200px;padding:0;")
+                        h3.text-info.text-center Statamic
+                        p.text-center.px-4
+                            | Using the latest and greatest web technologies, including Statamic, to deliver a stunning and stylish interface! Smooth edges and bold colors create a beautiful experience for the user.
+                .col.col-md-4
+                    .promo-block
+                        img.img-center(src= imgPath+"JollyDesign.png" style="width: 100%; max-width: 200px;")
+                        h3.text-info.text-center @huement/ui
+                        p.text-center.px-4
+                            | Only the finest programming was used to construct this project, including @huement/ui. Striving for a pixel perfect design that responds when you want it to and does what you expect.
+                .col.col-md-4
+                    .promo-block
+                        img.img-center(src= imgPath+"TERM.png" style="width: 100%; max-width: 200px;")
+                        h3.text-info.text-center Laravel
+                        p.text-center.px-4
+                            | Using the latest PHP8 and Laravel 10+ as the heart and soul of the project. Everything moves through Laravel using blade templates, and drops in @antlers code as needed for the blog elements.
+
+        .vr-block.site-spacer
