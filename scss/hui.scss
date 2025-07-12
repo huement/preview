@@ -33,6 +33,18 @@
   font-weight: 400;
 }
 
+.progress {
+  background-color: #0f0f0f;
+}
+
+.bg-light {
+  color: #000;
+
+  p {
+    color: #000;
+  }
+}
+
 .mojoWebsite {
   .headBlock {
     .hero {
@@ -42,6 +54,7 @@
         .title {
           z-index: 1;
         }
+
         .subtitle {
           z-index: 1;
         }

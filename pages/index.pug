@@ -11,41 +11,92 @@ block content
                 .col
                     .hero.hero-large
                         .hero-body.text-center
-                            h1.mt-n3
+                            h1.mt-n5
                                 | HUEMENT.com
-                            .subtitle.subtitle-sm.text-info.mt-3.mb-2.pb-2
+                            .subtitle.subtitle-sm.text-info.mt-0.mb-2.pb-2
                                 | Under Construction. Progress is at
                             .progress.mt-5(role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 60px")
-                                .progress-bar.progress-bar-striped.bg-info.progress-bar-animated(style="width: 50%")
+                                .progress-bar.progress-bar-striped.bg-info.progress-bar-animated(style="width: 85%")
+                            .lead.text-center.mt-2
+                                | 85%
 
         span.triangleTop &nbsp;
 
-    section.bg-white.angle-both-right-right.negative-top.text-dark
-        .vr-block.site-spacer
+    section.bg-white.py-5
         .container
-            .row.mt-5.mb-1
-                .col-12.py-5
-                    p.display-3.text-center.text-dark
-                        | Launching Summer 2025
-        .container
-            .row.pt-5.pb-5.mt-5.mb-5
-                .col.col-md-4
-                    .promo-block
-                        img.img-center(src= imgPath+"preview.png" style="width: 100%; max-width: 200px;padding:0;")
-                        h3.text-info.text-center Statamic
-                        p.text-center.px-4
-                            | Using the latest and greatest web technologies, including Statamic, to deliver a stunning and stylish interface! Smooth edges and bold colors create a beautiful experience for the user.
-                .col.col-md-4
-                    .promo-block
-                        img.img-center(src= imgPath+"JollyDesign.png" style="width: 100%; max-width: 200px;")
-                        h3.text-info.text-center @huement/ui
-                        p.text-center.px-4
-                            | Only the finest programming was used to construct this project, including @huement/ui. Striving for a pixel perfect design that responds when you want it to and does what you expect.
-                .col.col-md-4
-                    .promo-block
-                        img.img-center(src= imgPath+"TERM.png" style="width: 100%; max-width: 200px;")
-                        h3.text-info.text-center Laravel
-                        p.text-center.px-4
-                            | Using the latest PHP8 and Laravel 10+ as the heart and soul of the project. Everything moves through Laravel using blade templates, and drops in @antlers code as needed for the blog elements.
+            .row.mb-5
+                .col-12
+                    h2.display-4.text-center.mb-4.text-primary.fw-bold Welcome to the Future of HUEMENT
+                    p.lead.text-center.text-muted
+                        | Our new website is launching in FALL 2025. Get ready for a modern, content-rich experience!
+            .row.text-center
+                .col-md-4.mb-4
+                    .card.shadow-sm.h-100
+                        .card-body
+                            h3.card-title.text-info Blog
+                            p.card-text
+                                | Dive into in-depth articles, tutorials, and updates on design, development, and the HUEMENT ecosystem. Our blog will be your go-to resource for learning and inspiration.
+                .col-md-4.mb-4
+                    .card.shadow-sm.h-100
+                        .card-body
+                            h3.card-title.text-info Newsletter
+                            p.card-text
+                                | Stay in the loop! Subscribe to our newsletter for the latest news, feature releases, and exclusive content delivered straight to your inbox.
+                .col-md-4.mb-4
+                    .card.shadow-sm.h-100
+                        .card-body
+                            h3.card-title.text-info Community
+                            p.card-text
+                                | Join our growing community! Participate in forums, events, and outreach programs. Connect with fellow creators and help shape the future of HUEMENT.
 
-        .vr-block.site-spacer
+    section.bg-light.py-5
+        .container
+            .row.mb-5
+                .col-12
+                    h2.display-5.text-center.mb-4.text-info Technologies We Use
+                    p.lead.text-center.text-muted
+                        | Our platform is built with the best modern tools to ensure performance, flexibility, and a great user experience.
+            .row.text-center
+                .col-md-4.mb-4
+                    .card.border-0.h-100
+                        .card-body
+                            .mb-3
+                                img(src=imgPath+"preview.png" style="width: 200px;height:130px;margin:35px auto 35px auto;")
+                            h4 Statamic
+                            p.text-muted
+                                | A powerful flat-file CMS for content management and rapid development.
+                .col-md-4.mb-4
+                    .card.border-0.h-100
+                        .card-body
+                            img.mb-3(src=imgPath+"JollyDesign.png" style="width: 200px;height:200px;")
+                            h4 @huement/ui
+                            p.text-muted
+                                | Our own UI toolkit for beautiful, responsive, and accessible interfaces.
+                .col-md-4.mb-4
+                    .card.border-0.h-100
+                        .card-body
+                            img.mb-3(src=imgPath+"TERM.png" style="width: 200px;height:200px;")
+                            h4 Laravel
+                            p.text-muted
+                                | The robust PHP framework powering our backend and dynamic features.
+
+    section.bg-white.py-5
+        .container
+            .row.mb-5
+                .col-12
+                    h2.display-5.text-center.mb-4 Get Involved
+                    p.lead.text-center.text-muted
+                        | We believe in building together. Here’s how you can join the journey:
+            .row.text-center
+                .col-md-6.mb-4
+                    .card.shadow-sm.h-100
+                        .card-body
+                            h4.card-title.text-success Contribute
+                            p.card-text
+                                | Share your feedback, suggest features, or contribute code. We welcome all kinds of participation!
+                .col-md-6.mb-4
+                    .card.shadow-sm.h-100
+                        .card-body
+                            h4.card-title.text-warning Connect
+                            p.card-text
+                                | Follow us on social media, join our forums, and subscribe to our newsletter to stay connected with the HUEMENT community.
